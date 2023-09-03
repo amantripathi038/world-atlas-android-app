@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "WorldAtlas",
-    "slug": "WorldAtlas",
+    "name": "World-Atlas",
+    "slug": "World-Atlas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,13 +18,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "worldatlas.atlasworld",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5b28a58-18b6-49e9-8cef-21a3a50b753b"
+      }
     }
   }
 }
